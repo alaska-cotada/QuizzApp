@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#52B3D9"
+    tools:context=".QuizActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/pergunta"
+        android:layout_width="347dp"
+        android:layout_height="96dp"
+        android:text="Qual o maior deserto do mundo ?"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <RadioGroup
+        android:id="@+id/rgResposta"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <RadioButton
+        android:id="@+id/rbResposta1"
+        android:layout_width="273dp"
+        android:layout_height="42dp"
+        android:text="Atacama"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <RadioGroup
+        android:id="@+id/rgResposta"
+        android:layout_width="268dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="245dp">
+
+        <RadioButton
+            android:id="@+id/rbResposta2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Saara" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgResposta"
+        android:layout_width="272dp"
+        android:layout_height="38dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="300dp">
+
+        <RadioButton
+            android:id="@+id/rbResposta3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Antártica" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rgResposta"
+        android:layout_width="271dp"
+        android:layout_height="34dp"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="364dp">
+
+        <RadioButton
+            android:id="@+id/rbResposta4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Kalahari" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnResposta"
+        android:layout_width="220dp"
+        android:layout_height="52dp"
+        android:text="Responder"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="444dp" />
+</android.support.constraint.ConstraintLayout>
