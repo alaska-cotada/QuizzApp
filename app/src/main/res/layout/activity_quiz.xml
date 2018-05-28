@@ -10,35 +10,35 @@
 
     <TextView
         android:id="@+id/pergunta"
-        android:layout_width="347dp"
-        android:layout_height="96dp"
+        android:layout_width="219dp"
+        android:layout_height="78dp"
         android:text="Qual o maior deserto do mundo ?"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
-        android:textSize="36sp"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="30dp" />
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="28dp" />
 
     <RadioGroup
         android:id="@+id/rgResposta"
         android:layout_width="34dp"
-        android:layout_height="31dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="179dp" />
+        android:layout_height="41dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="154dp" />
 
     <RadioButton
         android:id="@+id/rbResposta1"
         android:layout_width="273dp"
-        android:layout_height="42dp"
+        android:layout_height="40dp"
         android:text="Atacama"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="179dp" />
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="154dp" />
 
     <RadioGroup
         android:id="@+id/rgResposta"
         android:layout_width="268dp"
         android:layout_height="38dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="245dp">
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="207dp">
 
         <RadioButton
             android:id="@+id/rbResposta2"
@@ -52,8 +52,8 @@
         android:id="@+id/rgResposta"
         android:layout_width="272dp"
         android:layout_height="38dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="300dp">
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="260dp">
 
         <RadioButton
             android:id="@+id/rbResposta3"
@@ -67,8 +67,8 @@
         android:id="@+id/rgResposta"
         android:layout_width="271dp"
         android:layout_height="34dp"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="364dp">
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="322dp">
 
         <RadioButton
             android:id="@+id/rbResposta4"
@@ -81,8 +81,8 @@
     <Button
         android:id="@+id/btnResposta"
         android:layout_width="220dp"
-        android:layout_height="52dp"
+        android:layout_height="50dp"
         android:text="Responder"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="444dp" />
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="396dp" />
 </android.support.constraint.ConstraintLayout>
